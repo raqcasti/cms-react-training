@@ -1,0 +1,44 @@
+.comic {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 481px) {
+    .comic {
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 20px;
+        max-width: 183px;
+        justify-content: unset;
+    }
+}
+
+.comic .comic__thumbnail-ctr {
+    position: relative;
+}
+
+.comic .comic__thumbnail-ctr img {
+    width: 125px;
+    height: 188px;
+}
+
+@media screen and (min-width: 481px) {
+    .comic .comic__thumbnail-ctr img {
+        width: 183px;
+        height: 276px;
+    }
+}
+
+.comic .comic__body {
+    flex-basis: 203px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.comic .comic__body .comic__body-title {
+    font-size: 16px;
+    font-weight: bold;
+}

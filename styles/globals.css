@@ -1,0 +1,81 @@
+:root {
+  /* colors */
+  --color-light-1: #F8F8F2;
+  --color-pink-1: #C24868E6;
+  --color-dark-1: #000000;
+  --color-dark-2: #222222;
+  --color-gray-1: #00000029;
+  --color-gray-2: #8B8B8B;
+  --color-green-1: #9ECFC5;
+  --color-pink-2: #C24868;
+  --color-gray-3: #000000B3;
+  --color-light-2: #00000000;
+  --color-gray-4: #00000075;
+  
+  /* fonts */
+  --font-family-1: Montserrat, sans-serif;
+  --font-family-2: Karla, "Times New Roman";
+
+  /* font-sizes */
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family-1);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+      color-scheme: dark;
+  }
+  body {
+      color: white;
+      background: black;
+  }
+}:root {
+  /* fonts */
+  --font-family-1: Montserrat, sans-serif;
+  --font-family-2: Karla, "Times New Roman";
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family-1);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+      color-scheme: dark;
+  }
+  body {
+      color: white;
+      background: black;
+  }
+}

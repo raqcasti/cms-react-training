@@ -1,0 +1,31 @@
+.content {
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 900px) {
+    .content {
+        padding: 0 60px;
+    }
+}
+
+.content .body {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.content .body .body__left {
+    flex-basis: 995px;
+}
+
+.content .body .body__right {
+    display: none;
+    flex-grow: 0;
+    flex-basis: 265px;
+}
+
+@media screen and (min-width: 900px) {
+    .content .body .body__right {
+        display: block;
+    }
+}
