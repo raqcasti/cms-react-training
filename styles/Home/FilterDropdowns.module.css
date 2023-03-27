@@ -9,12 +9,12 @@
 }
 
 .dropdown {
-    border: 1px solid #8d8d8d;
+    border: 1px solid #f5bdbd;
     border-radius: 3px;
-    color: lightblue;
+    color: whitesmoke;
     padding: 7px 10px;
-    width: 245px;
-    background-color: darkgray;
+    width: 250px;
+    background-color: rgb(70, 70, 70);
 }
 
 .desktop .dropdown:first-of-type {
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: darkgray;
+    background-color: rgb(70, 70, 70);
     z-index: 20;
 }
 

@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 481px) {
     .nav {
-        height: 179px;
-        padding: 20px 60px;
+        height: 100px;
+        padding: 10px 60px;
     }
 }

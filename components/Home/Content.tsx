@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import classes from "../../styles/Home/Content.module.css";
 import Context, { AppContextInterface } from "../../context/index-store";
-import { ComicsGrid } from "../Comics/ComicsGrid";
+import { ComicsGrid } from "../Comics/ComicGrid";
 import { ErrorMessage } from "../Comics/ErrorMessage";
 import { LoadingMessage } from "../Comics/LoadingMessage";
 import { Favorites } from "../Favorites/Favorites";

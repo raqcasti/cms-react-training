@@ -1,15 +1,17 @@
 .ctr {
     max-width: 670px;
     margin: auto;
-    margin-top: 95px;
+    margin-top: 75px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 20px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 
 @media screen and (min-width: 769px) {
     .ctr {
         gap: 35px;
+        align-items: flex-start;
     }
 }

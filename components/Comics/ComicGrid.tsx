@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import classes from "../../styles/Comics/ComicsGrid.module.css";
+import classes from "../../styles/Comics/ComicGrid.module.css";
 import Context, { AppContextInterface } from "../../context/index-store";
 import { Pagination } from "./Pagination";
 import { ComicGridItem } from "./ComicGridItem";

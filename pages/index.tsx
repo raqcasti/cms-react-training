@@ -64,10 +64,10 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Warren's Marvel App</title>
+                <title>Coimic App</title>
                 <meta
                     name="description"
-                    content="Warren's React Training Project"
+                    content="React Training Project"
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

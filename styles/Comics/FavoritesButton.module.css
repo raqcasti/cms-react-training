@@ -7,7 +7,7 @@
     height: 30px;
     padding: 5px;
     border-radius: 50%;
-    background-color: transparent;
+    background-color: white;
     border: 2px solid black;
     cursor: pointer;
 }
@@ -23,7 +23,7 @@
 
 .button.button--favorited {
     border: 2px solid white;
-    background-color: pink;
+    background-color: rgba(255, 217, 0, 0.964);
 }
 
 .button .bolt {

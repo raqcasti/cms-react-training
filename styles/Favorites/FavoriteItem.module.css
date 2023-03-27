@@ -34,7 +34,7 @@
 .item .item__thumbnail .remove-btn > svg {
     width: 10px;
     height: 15px;
-    color: paleturquoise;
+    color: black;
 }
 
 @media screen and (min-width: 900px) {
